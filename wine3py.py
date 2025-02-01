@@ -13,12 +13,13 @@ import pandas as pd
 from sklearn.cluster import KMeans
 
 
-white_wine = pd.read_csv("/Users/dorotanalewajek/Documents/ml/Drzewa decyzyjne /wine/winequality-white.csv")
-red_wine= pd.read_csv("/Users/dorotanalewajek/Documents/ml/Drzewa decyzyjne /wine/winequality-red.csv")
+white_wine = pd.read_csv("/PUT YOUR FILE PATH/winequality-white.csv")
+red_wine= pd.read_csv("/PUT YOUR FILE PATH/winequality-red.csv")
 
 # Wczytaj dane z pliku CSV (dostosuj separator, jeśli potrzeba)
-df_white = pd.read_csv('/Users/dorotanalewajek/Documents/ml/Drzewa decyzyjne /wine/winequality-white.csv', delimiter=';')
-df_red = pd.read_csv('/Users/dorotanalewajek/Documents/ml/Drzewa decyzyjne /wine/winequality-red.csv', delimiter=';')
+df_white = pd.read_csv('/PUT YOUR FILE PATH/winequality-white.csv', delimiter=';')
+df_red = pd.read_csv('/PUT YOUR FILE PATH/winequality-red.csv', delimiter=';')
+
 
 df_white['wine_type'] = 'white'
 df_red['wine_type'] = 'red'
