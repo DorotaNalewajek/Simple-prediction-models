@@ -1,3 +1,11 @@
+"""
+🍷 Wine Quality Prediction - Decision Tree Model
+
+Autor: Dorota Nalewajek
+Cel: Klasyfikacja win na podstawie cech chemicznych.
+"""
+
+
 from sklearn.tree import DecisionTreeClassifier
 from sklearn.model_selection import GridSearchCV
 from sklearn.datasets import load_wine
